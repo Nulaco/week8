@@ -1,0 +1,20 @@
+body{
+    color: $primary-dark;
+}
+a{
+    text-decoration: none !important;
+}
+.d-block{
+    display: block;
+}
+.h1-text-hide{
+    background-repeat: no-repeat;
+    width: 121px;
+    height: 55px;
+    text-indent: 101%;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.logo{
+    background-image: url(../assets/images/logo.svg);
+}

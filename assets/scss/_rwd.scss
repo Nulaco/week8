@@ -1,0 +1,18 @@
+@mixin pad {
+    @media (max-width: 769px) {
+        @content
+    };
+};
+
+@mixin pad-md {
+    /*如果螢幕寬度為 400px 以上 且 767px 以下，就套用 css 設定*/
+    @media screen and (min-width: 451px) and (max-width: 767px){ 
+        @content 
+    }
+};
+
+@mixin phone{
+    @media (max-width:450px) {
+        @content        
+    };
+};

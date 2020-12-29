@@ -1,0 +1,44 @@
+.h1{
+    @include phone(){
+        
+    }
+}
+.header_nav{
+    @include pad-md(){
+        display: none !important;
+    }
+    @include phone(){
+        display: none !important;
+    }
+}
+
+.header_collapsemenu{
+    display: none !important;
+    @include pad-md(){
+        display: block !important;
+    }
+    @include phone(){
+        display: block !important;
+    }
+}
+.header_collapsemenu_hidden{
+    background-color: $secondary;
+    display: none;
+    @include pad(){
+        display: none;
+    }
+}
+
+.footer_nav_hidden{
+    @include pad-md(){
+        display: none;
+    }
+    @include phone(){
+        display: none;
+    }
+}
+.footer_phonenumber{
+    @include phone(){
+        display: none !important;
+    }
+}

@@ -1,0 +1,268 @@
+//image 調整圖片位置
+.object-fit{
+    object-fit:cover;
+}
+.bg-img-norepeat{
+    background-repeat: no-repeat;
+}
+.bg-img-cover{
+    background-size: cover;
+}
+.bg-img-position-center{
+    background-position: center;
+}
+//color
+.color-primary{
+    color: $primary;
+}
+.color-primary-light{
+    color: $primary-light;
+}
+.color-primary-dark{
+    color: $primary-dark;
+}
+.color-secondary{
+    color: $secondary;
+}
+.color-w{
+    color: $white;
+}
+.color-black{
+    color: $black;
+}
+.bg-primary{
+    background-color: $primary;
+}
+.bg-primary-light{
+    background-color: $primary-light;
+}
+.bg-secondary-light{
+    background-color: $secondary-light;
+}
+.bg-none{
+    background-color: rgba(255, 255, 255, 0);
+}
+.border-color-primary{
+    border-color: $primary !important;
+}
+.border-color-secondary-light{
+    border-color: $secondary-light;
+}
+
+//btn
+.btn-outline-white:hover{
+    color: $white;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.btn-outline-dark:hover{
+    color: $dark;
+    background-color: $gray-200 !important;
+}
+.btn-outline-primary:hover{
+    background-color: $primary-dark !important;
+    border-color: $primary !important;
+}
+
+//字體大小
+//$font-size-base = 16px
+//$font-size-sm: $font-size-base* .875 = 14px
+//$font-size-lg: $font-size-base* 1.25 = 20px
+.fz-0{
+    font-size: 0.75rem;
+}
+.fz-1{
+    font-size: 1.25rem; //20px
+}
+.fz-2{
+    font-size: 1.5rem; //24px
+}
+.fz-3{
+    font-size: 1.75rem; //28px
+}
+.fz-4{
+    font-size: 2rem; //32px
+}
+.fz-5{
+    font-size: 2.5rem; //40px
+}
+.fz-6{
+    font-size: 3rem; //40px
+}
+.h2-headerDM{
+    font-size: 2.5rem;
+    @include pad(){
+        font-size: 2rem;
+    }
+    @include phone(){
+        font-size: 1.75rem;
+    }
+}
+.fz-headerDM{
+    font-size: 1.5rem;
+    @include pad(){
+        font-size: 1.25rem;
+    }
+}
+.fz-footer{
+    font-size: 2.5rem;
+    @include phone(){
+        font-size: 1.5rem;
+    }
+}
+
+// 文字對齊
+.h2-text-data{
+    text-align: left;
+    @include phone(){
+        text-align: center;
+    }
+}
+.text-right{
+    text-align: right;
+}
+
+//邊框
+.border-radius-0{
+    border-radius:0;
+}
+.border-left{
+    border-left: solid 2px;
+}
+
+
+//間距
+.w-0{
+    width: 0%;
+}
+
+.pr-0{
+    padding-right: 0;
+}
+.pr-1{
+    padding-right: 4px;
+}
+.pr-2{
+    padding-right: 8px;
+}
+.pr-3{
+    padding-right: 12px;
+}
+.pr-4{
+    padding-right: 16px;
+}
+.pr-5{
+    padding-right: 18px;
+}
+.pr-6{
+    padding-right: 20px;
+}
+.pr-7{
+    padding-right: 24px;
+}
+.pr-8{
+    padding-right: 32px;
+}
+.pr-9{
+    padding-right: 36px;
+}
+.pr-10{
+    padding-right: 40px;
+}
+
+.pl-0{
+    padding-left:0 ;
+}
+.pl-1{
+    padding-left: 4px;
+}
+.pl-2{
+    padding-left: 8px;
+}
+.pl-3{
+    padding-left: 12px;
+}
+.pl-4{
+    padding-left: 16px;
+}
+.pl-5{
+    padding-left: 18px;
+}
+.pl-6{
+    padding-left: 20px;
+}
+.pl-7{
+    padding-left: 24px;
+}
+.pl-8{
+    padding-left: 32px;
+}
+.pl-9{
+    padding-left: 36px;
+}
+.pl-10{
+    @include phone(){
+        padding-left: 105px;
+    }
+}
+
+.mr-0{
+    margin-right: 0;
+}
+.mr-1{
+    margin-right: 4px;
+}
+.mr-2{
+    margin-right: 8px;
+}
+.mr-3{
+    margin-right: 12px;
+}
+.mr-4{
+    margin-right: 16px;
+}
+.mr-5{
+    margin-right: 18px;
+}
+.mr-6{
+    margin-right: 20px;
+}
+.mr-7{
+    margin-right: 24px;
+}
+.mr-8{
+    margin-right: 32px;
+}
+.mr-9{
+    margin-right: 36px;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+.ml-1{
+    margin-left: 4px;
+}
+.ml-2{
+    margin-left: 8px;
+}
+.ml-3{
+    margin-left: 12px;
+}
+.ml-4{
+    margin-left: 16px;
+}
+.ml-5{
+    margin-left: 18px;
+}
+.ml-6{
+    margin-left: 20px;
+}
+.ml-7{
+    margin-left: 24px;
+}
+.ml-8{
+    margin-left: 32px;
+}
+.ml-9{
+    margin-left: 36px;
+}
